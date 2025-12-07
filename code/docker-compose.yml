@@ -29,7 +29,7 @@ services:
       SUPABASE_ANON_KEY: ${SUPABASE_ANON_KEY}
       SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY}
       AUTH_JWT_SECRET: ${JWT_SECRET}
-      LOGFLARE_API_KEY: "IGNORAR
+      LOGFLARE_API_KEY: "IGNORAR"
       # Apuntamos los logs a la nada o a stdout para evitar errores
       NEXT_PUBLIC_ENABLE_LOGS: "false" 
       NEXT_ANALYTICS_BACKEND_PROVIDER: postgres
